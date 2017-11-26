@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <!-- David Madi - 12hours in this project - davidmadi@gmail.com -->
+        <script type="text/javascript" src="./scripts/jquery.min.js"></script>
+        <script type="text/javascript" src="./scripts/pintellectMenu.js"></script>    
+        <script type="text/javascript" src="./scripts/pintellectHtml.js"></script>    
+        <script type="text/javascript" src="./scripts/pintellectPdf.js"></script>    
+        <script type="text/javascript" src="./scripts/pdf.min.js"></script>
+        <script type="text/javascript" src="./scripts/viewer.js"></script>
+        <link rel="stylesheet" href="./css/viewer.css"></link>    
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css"></link>
+        <link rel="stylesheet" href="./css/bootstrap/bootstrap.icon-large.css"></link>
+        <link rel="stylesheet" href="./css/bootstrap/bootstrap-grid.min.css"></link>    
+        <link rel="stylesheet" href="./css/pintellect.css"></link>    
+    </head>
+    
+    <body>
+    <div class="container">
+        <div class="row">
+            <div id="headerButtons" class="col-md-6">
+                <a id="showHtml" class="btn btn-lg btn-info" href="#" role="button">Show HTML</a>
+                <a id="showPdf" class="btn btn-lg btn-info" href="#" role="button">Show PDF</a>
+            </div>
+        </div>
+        <div id="viewHtml" class="hide">
+            <div class="row">
+                <div class="col-md-5"></div>
+                <div class="col-md-6">
+                    <a id="htmlMarker" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-pencil"></span></a>
+                </div>
+            </div>
+            <div class="row">
+                <div id="htmlContent"></div>
+            </div>
+        </div>
+        <div id="viewPdf" class="hide col-md-12">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <a id="pdfPrev" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-triangle-left"></span></a>
+                    <a id="pdfNext" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-triangle-right"></span></a>
+                    <a id="pdfMarker" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-pencil"></span></a>
+                    <span id="cursorMarker" class="hide btn-lg glyphicon glyphicon-record" style="top:100px;left:100px">&nbsp;</span>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+            <div class="row col-md-12">
+                <canvas id="theCanvas" class="theCanvas"></canvas>
+                <canvas id="canvasPaintLayer" class="canvasPaintLayer"></canvas>
+            </div>
+        </div>
+    </div>
+    
+    
+    </body>
+    
+    </html>
+    

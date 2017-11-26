@@ -1,0 +1,20 @@
+.high{
+    background-color: yellow;
+}
+.hide{
+    display: none;
+}
+
+#cursorMarker {
+    position:fixed;
+    overflow:hidden;
+    z-index: 11;
+}
+
+#theCanvas{
+    z-index: 5;
+}
+#canvasPaintLayer{
+    z-index: 10;
+    position: absolute;
+}
