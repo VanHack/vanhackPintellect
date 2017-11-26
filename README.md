@@ -1,7 +1,7 @@
 # vanhackPintellect
-This is a vanhack pintellect challenge
+This is a Vanhack Pintellect challenge
 
-To useit, just download de project and run these commands below.
+To use it, just download de project and run these commands below.
 
 Open terminal.
 
